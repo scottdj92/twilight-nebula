@@ -26,9 +26,11 @@ module.exports = {
       },
       {
         test: /\.scss$/,
+        include: path.resolve(__dirname, 'src'),
         loaders: [
           'style-loader',
           'css-loader',
+          'resolve-url-loader',
           'sass-loader',
         ]
       },
@@ -43,7 +45,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js']
+    extensions: ['.tsx', '.ts', '.js', '.scss', '.sass']
   },
   devtool: 'inline-source-map',
   plugins: [

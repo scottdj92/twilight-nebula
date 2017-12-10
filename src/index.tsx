@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "react-dom";
-import Footer from "./footer/";
+import Footer from "./components/footer";
 import "./index.scss";
 declare const module: any;
 
