@@ -15,7 +15,6 @@ module.exports = {
     historyApiFallback: true,
     hot: true,
     hotOnly: true,
-    stats: 'errors-only'
   },
   module: {
     rules: [

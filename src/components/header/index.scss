@@ -1,0 +1,9 @@
+@import "~bulma/sass/utilities/initial-variables.sass";
+
+.header-container {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  border-bottom: 3px solid $turquoise;
+  width: 100%;
+}
