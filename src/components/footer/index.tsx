@@ -3,7 +3,7 @@ import "./index.scss";
 
 const Footer: React.SFC = () => {
   return (
-    <div>
+    <div className="footer-container">
       <h1 className="is-size-5">Developed by EF Go Ahead Tours</h1>
     </div>
   );
